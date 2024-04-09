@@ -10,7 +10,7 @@ def step(weighted_sum):
 
 def perceptron():
 	weighted_sum = 0
-	for x,w in zip(x_input, w_weight):
+	for x,w in zip(x_input, w_weights:
 		weighted_sum += x*w
 		print(weighted_sum)
 	return step(weighted_sum)
